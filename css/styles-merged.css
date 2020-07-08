@@ -55,10 +55,10 @@ Copyright (c) 2015 Daniel Eden
 
 .diff-icon {
   position: absolute;
-  bottom: 70px;
-  left: 4vw;
-  max-width: 50px;
-  max-height: 8vw;
+  top: 8vw;
+  left: 3.6vw;
+  max-width: 3.47222222222vw;
+  height: 5vw;
   width: 8vw;
   -o-object-fit: scale-down;
      object-fit: scale-down;
@@ -69,13 +69,14 @@ Copyright (c) 2015 Daniel Eden
   height: 13.30vw;
   max-width: 10vw;
   width: 100%;
-  margin-right: 15px;
+  margin-right: 0.9vw;
   shape-outside: polygon(75% 0%, 100% 50%, 80% 100%, 0% 100%, 25% 50%, 0% 0%);
 }
 
 .diff-text {
-  max-width: 200px;
+  max-width: 220px;
 }
+
 .diff-title {
   position: relative;
   display: block;
@@ -97,6 +98,10 @@ Copyright (c) 2015 Daniel Eden
   bottom: -2.43vw;
   margin: 0 auto;
   max-width: 18vw;
+}
+
+.differences .container {
+  width: 90vw;
 }
 
 @media screen and (min-width:1920px)
@@ -149,7 +154,7 @@ Copyright (c) 2015 Daniel Eden
     left: 15vmin;
     height: 12vmin;
     max-height: 12vmin;
-    width: 15vmin;
+    max-width: 12.47222222222vmin;
   }
 
   .differences h4 {
@@ -161,6 +166,8 @@ Copyright (c) 2015 Daniel Eden
   
   .differences p {
     font-size: 4.16vmin;
+    line-height: 1.4;
+    max-width: 500px;
   }
 
   .col-4 {
@@ -176,7 +183,7 @@ Copyright (c) 2015 Daniel Eden
   .differences .container {
     max-width: auto;
     width: auto;
-    padding: 0 8vmin;
+    padding: 0 15vmin;
   }
 
 }
