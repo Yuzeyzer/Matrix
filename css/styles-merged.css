@@ -186,15 +186,8 @@ Copyright (c) 2015 Daniel Eden
     padding: 0 15vmin;
   }
   .diff-title {
-    position: relative;
-    display: block;
     margin: 1vmin auto 0.5vmin;
-    text-transform: uppercase;
-    font-family: 'Alegreya Sans', sans-serif;
-    font-weight: 400;
     font-size: 1.80vmin;
-    text-align: center;
-    color: #68823d;
   }
 
 }
