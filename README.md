@@ -1,1 +1,0 @@
-### Freelance project for Matrix Programming school
