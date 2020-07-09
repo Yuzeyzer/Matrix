@@ -23,6 +23,21 @@ Copyright (c) 2015 Daniel Eden
   width: 33%;
 }
 
+.fullscreen-bg {
+  width: 100%;
+  height: 100vh !important; 
+  z-index: 0 !important;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.fullscreen-bg video {
+  display: block !important;
+  height: 100%;
+}
+
 .differences {
   background: url(../img/diff-bg.png) right no-repeat fixed;
   background-size: cover;

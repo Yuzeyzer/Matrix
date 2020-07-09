@@ -1,39 +1,73 @@
 .fullscreen-bg {
-    overflow: hidden;
-    z-index: -100;
-    position: relative;
-    height: 100%;
-    width: 100%;
-    padding-top:45%;
+  overflow: hidden;
+  z-index: -100;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 45%;
 }
 
 .fullscreen-bg__video {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 }
 .overlay {
-    background: rgba(0,0,0,0.6);
-    position: absolute;
-    top:0;
-    left:0;
-    width: 100%;
-    height: 100%;
-    z-index: 4;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 4;
 }
 .overlay h1 {
-    text-align:center;
-    color:#fff;
-    font-size: 70px;
-    margin-top:17%;
+  text-align: center;
+  color: #fff;
+  font-size: 70px;
+  margin-top: 17%;
 }
-@media (max-width: 767px) {
-    .fullscreen-bg {
-        background: url('../images/plane.jpg') center center / cover no-repeat;
-    }
 
-    .fullscreen-bg__video {
-        display: none;
-    }
+.hero-btn {
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #68823d !important;
+  border: none !important;
+  text-transform: none !important;
+}
+
+.slides-text {
+    padding-top: 30vh !important;
+}
+
+.slides-text .hero-btn {
+    font-size: 20px;
+}
+
+.probootstrap-main-nav li.active a {
+    color: #68823d;
+}
+a {
+    color: #68823d;
+}
+
+@media (max-width: 768px) {
+  .fullscreen-bg {
+    background: url('../images/plane.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+  .slides-text h2 {
+    font-family: 'Alegreya Sans', sans-serif;
+    font-size: 22px;
+  }
+  .hero-btn {
+    font-family: 'Alegreya Sans', sans-serif;
+    background-color: #68823d !important;
+    padding: 10px 20px !important;
+    margin-top: 15px;
+    font-size: 14px;
+  }
 }

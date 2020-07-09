@@ -1042,7 +1042,6 @@ figure:hover figcaption, figure:focus figcaption {
 .slides-text {
   z-index: 99;
   position: relative;
-  padding-top: 250px;
   max-width: 5000px;
   margin: 0 auto;
 }
@@ -1056,7 +1055,7 @@ figure:hover figcaption, figure:focus figcaption {
 
 @media screen and (max-width: 768px) {
   .slides-text h2 {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 
