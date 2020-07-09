@@ -12,7 +12,14 @@
   top: 0;
   left: 0;
   width: 100%;
+  object-fit: cover;
 }
+
+.flex-control-nav.flex-control-paging {
+    opacity: 0;
+    visibility: 0;
+}
+
 .overlay {
   background: rgba(0, 0, 0, 0.6);
   position: absolute;
@@ -40,7 +47,7 @@
     padding-top: 30vh !important;
 }
 
-.slides-text .hero-btn {
+.hero-btn {
     font-size: 20px;
 }
 
@@ -56,12 +63,9 @@ a {
     background: url('../images/plane.jpg') center center / cover no-repeat;
   }
 
-  .fullscreen-bg__video {
-    display: none;
-  }
   .slides-text h2 {
     font-family: 'Alegreya Sans', sans-serif;
-    font-size: 22px;
+    font-size: 26px;
   }
   .hero-btn {
     font-family: 'Alegreya Sans', sans-serif;
