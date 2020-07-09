@@ -19,6 +19,9 @@ body {
   background-color: #1b1b1b !important;
   overflow: hidden;
 }
+.mt-2 {
+  margin-top: 20px;
+}
 .probootstrap-section,.probootstrap-footer.probootstrap-bg {
   background-color: #1b1b1b;
 }
@@ -252,8 +255,6 @@ body {
     bottom: -5vmin;
     max-width: 40vmin;
   }
- 
-
 }
 
 @media screen and (max-width: 768px) {
