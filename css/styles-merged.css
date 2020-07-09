@@ -204,7 +204,7 @@ Copyright (c) 2015 Daniel Eden
     margin-bottom: 20px;
   }
   .diff-title {
-    margin-top: 40px;
+    margin-top: 30px;
     font-size: 20px;
   }
   .diff-title span img {
@@ -214,11 +214,11 @@ Copyright (c) 2015 Daniel Eden
   }
   .differences h4 {
     margin-top: -20px;
-    font-size: 18px;
+    font-size: 22px;
   }
   .differences p {
     margin: 0;
-    font-size: 14px;
+    font-size: 16px;
   }
   .diff-img {
     float: none;
