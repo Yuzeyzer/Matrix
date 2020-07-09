@@ -52,12 +52,12 @@ body {
 }
 
 .differences {
-  background: url(../img/diff-bg.png) right no-repeat fixed;
+  background: url(../img/diff-bg.png) left no-repeat;
   background-size: cover;
 }
 
 .about {
-  background: url(../img/diff-bg.png) right no-repeat fixed;
+  background: url(../img/diff-bg.png) left no-repeat;
   background-size: cover;
 }
 
