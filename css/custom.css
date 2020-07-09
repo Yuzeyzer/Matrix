@@ -16,8 +16,8 @@
 }
 
 .flex-control-nav.flex-control-paging {
-    opacity: 0;
-    visibility: 0;
+  opacity: 0;
+  visibility: 0;
 }
 
 .overlay {
@@ -44,29 +44,39 @@
 }
 
 .slides-text {
-    padding-top: 30vh !important;
+  padding-top: 30vh !important;
 }
 
 .hero-btn {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .probootstrap-main-nav li.active a {
-    color: #68823d;
+  color: #68823d;
 }
 a {
+  color: #68823d;
+}
+
+.panel-heading {
+  padding: 10px 0;
+}
+
+.probootstrap-panel .panel .panel-heading a[aria-expanded=true] {
     color: #68823d;
+}
+
+.probootstrap-footer.probootstrap-bg a {
+    color: #68823d;
+}
+.probootstrap-footer form .btn.btn-subscribe {
+    background-color: #68823d;
 }
 
 @media (max-width: 768px) {
   .fullscreen-bg {
     background: url('../images/plane.jpg') center center / cover no-repeat;
   }
- 
-  .fullscreen-bg__video {
-      object-fit: none;
-  }
-
   .slides-text h2 {
     font-family: 'Alegreya Sans', sans-serif;
     font-size: 26px;
@@ -77,5 +87,20 @@ a {
     padding: 10px 20px !important;
     margin-top: 15px;
     font-size: 14px;
+  }
+
+  .probootstrap-panel .panel .panel-heading a:after {
+    content: '\e9f7';
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  .probootstrap-panel .panel .panel-heading a:after,
+  .probootstrap-panel .panel .panel-heading a[aria-expanded='true']:after {
+    top: 40%;
+  }
+
+  .accardion-text {
+      display: inline-block;
+      width: 90%;
   }
 }

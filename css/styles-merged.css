@@ -14,6 +14,16 @@ Copyright (c) 2015 Daniel Eden
 */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300;400&display=swap');
 
+
+body {
+  background-color: #1b1b1b !important;
+}
+.probootstrap-section,.probootstrap-footer.probootstrap-bg {
+  background-color: #1b1b1b;
+}
+.probootstrap-footer.probootstrap-bg::before {
+  background: #1b1b1b !important;
+}
 .row {
   display: flex;
   flex-wrap:wrap;
@@ -21,6 +31,8 @@ Copyright (c) 2015 Daniel Eden
 
 .col-4 {
   width: 33%;
+  display: flex;
+  justify-content: center;
 }
 
 .fullscreen-bg {
@@ -173,6 +185,7 @@ Copyright (c) 2015 Daniel Eden
   }
 
   .differences h4 {
+    margin-top: 0;
     padding-top: 4.4vmin;
     font-size: 5vmin;
     line-height: 1;
@@ -182,12 +195,14 @@ Copyright (c) 2015 Daniel Eden
   .differences p {
     font-size: 4.16vmin;
     line-height: 1.4;
-    max-width: 500px;
+    max-width: auto;
   }
 
   .col-4 {
     width: 100%;
     padding: 0 10px;
+    display: flex;
+    justify-content: center;
   }
   .diff-img {
     height: 55vmin;
@@ -212,15 +227,19 @@ Copyright (c) 2015 Daniel Eden
     margin: auto;
     width: 100%;
     max-width: 100%;
-    padding: 0 10vmin;
+    padding: 0 0;
   }
   .differences .col-4 {
     padding: 0;
     margin-bottom: 20px;
   }
+  .diff-item {
+    width: 70%;
+  }
   .diff-title {
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 20px;
+    margin-bottom: 60px;
   }
   .diff-title span img {
     max-width: 60vmin;
@@ -248,7 +267,7 @@ Copyright (c) 2015 Daniel Eden
   .diff-icon {
     position: absolute;
     top: 31vmin;
-    left: 35vmin;
+    left: 40%;
     
     max-height: 20vmin;
     max-width: 25.47222222222vmin;
