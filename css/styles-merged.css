@@ -104,8 +104,8 @@ Copyright (c) 2015 Daniel Eden
   width: 90vw;
 }
 
-@media screen and (min-width:1920px)
- {.diff-title {
+@media screen and (min-width:1920px){
+  .diff-title {
    font-size: 1.2546vw;
    margin: 2.3vw auto 1.5vw;
  }
@@ -190,6 +190,56 @@ Copyright (c) 2015 Daniel Eden
     font-size: 1.80vmin;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+  .differences .container {
+    margin: auto;
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10vmin;
+  }
+  .differences .col-4 {
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .diff-title {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  .diff-title span img {
+    max-width: 60vmin;
+    bottom: -6.8vmin;
+    object-fit: contain;
+  }
+  .differences h4 {
+    margin-top: -20px;
+    font-size: 18px;
+  }
+  .differences p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .diff-img {
+    float: none;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 5vmin;
+    shape-outside: none;
+  }
+  
+  .diff-icon {
+    position: absolute;
+    top: 31vmin;
+    left: 35vmin;
+    
+    max-height: 20vmin;
+    max-width: 25.47222222222vmin;
+    width: 100%;
+    object-fit: contain;
+  }
 }
 
 .animated {
