@@ -52,13 +52,11 @@ body {
 }
 
 .differences {
-  background: url(../img/diff-bg.png) left no-repeat;
-  background-size: cover;
+  background: url(../img/diff-bg.png) no-repeat;
 }
 
 .about {
-  background: url(../img/diff-bg.png) left no-repeat;
-  background-size: cover;
+  background: url(../img/diff-bg.png) no-repeat;
 }
 
 
@@ -276,7 +274,7 @@ body {
   }
   .diff-title {
     margin-top: 10px;
-    font-size: 20px;
+    font-size: 6vmin;
     margin-bottom: 60px;
   }
   .diff-title span img {
