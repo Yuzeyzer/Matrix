@@ -152,6 +152,11 @@ body {
   line-height: 1.3 !important;
 }
 
+.mat {
+  color: #68823d;
+  font-weight: 700;
+}
+
 @media screen and (min-width:1920px){
   .diff-title {
    font-size: 1.2546vw;
