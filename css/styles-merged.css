@@ -17,6 +17,7 @@ Copyright (c) 2015 Daniel Eden
 
 body {
   background-color: #1b1b1b !important;
+  overflow: hidden;
 }
 .probootstrap-section,.probootstrap-footer.probootstrap-bg {
   background-color: #1b1b1b;
@@ -200,6 +201,10 @@ body {
 }
 
 @media screen and (max-width:1024px) {
+  header .container {
+    width: 100%;
+    max-width: 850px;
+  }
   .diff-icon {
     position: absolute;
     top: 35vmin;
@@ -242,9 +247,14 @@ body {
     padding: 0 15vmin;
   }
   .diff-title {
-    margin: 1vmin auto 0.5vmin;
-    font-size: 1.80vmin;
+    margin: 1vmin auto 7.5vmin;
+    font-size: 4vmin;
   }
+  .diff-title span img {
+    bottom: -5vmin;
+    max-width: 40vmin;
+  }
+ 
 
 }
 
@@ -261,6 +271,8 @@ body {
   }
   .diff-item {
     width: 70%;
+    display: flex;
+    flex-direction: column;
   }
   .diff-title {
     margin-top: 10px;
@@ -283,20 +295,19 @@ body {
   .diff-img {
     float: none;
     display: block;
-    max-width: 100%;
-    width: 100%;
+    max-width: 50vmin;
     margin-right: 0;
     margin-bottom: 5vmin;
     shape-outside: none;
+    object-fit: contain;
   }
   
   .diff-icon {
     position: absolute;
-    top: 31vmin;
-    left: 40%;
-    
-    max-height: 20vmin;
-    max-width: 25.47222222222vmin;
+    top: 36vmin;
+    left: 16vmin;
+    max-height: 10vmin;
+    max-width: 23.47222222222vmin;
     width: 100%;
     object-fit: contain;
   }
